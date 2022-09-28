@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/all.min.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/normalize.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="shortcut icon" href="./20220711_205558.ico" />
+		<meta
+			name="description"
+			content="الدرر الشيعية هو موقع لنشر التشيع وتعريف الناس عن مذهب محمد وآله الطاهرين عليهم الصلاة والسلام."
+		/>
+		<title>الدرر الشيعية</title>
+	</head>
+	<body id="body">
+		<aside id="asidee">
+			<div class="container">
+				<div class="title">
+					<img src="./Images/logo.png" alt="logo" id="logo">
+				</div>
+				<div class="links" id="links">
+				    <ul>
+				        <li><a href="index.html">الـرئــيــســيـــــة</a></li>
+				        <li><a id="asidem">نـشــر الـتـشـيـع   <i class="fa-solid fa-chevron-down" id="faw"></i> </a>
+				        <div id="asideMenu">
+				            <ul>
+				                <li><a href="novels.html">روايـات شيعـيـة</a></li>
+				                <li><a href="questions.html">الأسـئلة الـشائعة</a></li>
+				                <li><a href="papers.html">وثــائــق</a></li>
+				            </ul>
+				        </div></li>
+				        <li><a href="about.html">حـول الــمـوقـع</a></li>
+				        <li><a href="dark.html">الـوضـع المظلم</a></li>
+				        <li><button id="back"><i class="fa-solid fa-arrow-right"></i></button></li>
+				    </ul>
+				</div>
+			</div>
+			<script src="./index.js" defer></script>
+		</aside>
+		<header id="header">
+		   <div class="container">
+		       <div class="titlee">
+					<img src="Images/logo.png" alt="logo.png">
+				</div>
+				<div class="linkss">
+					<ul>
+						<li
+							><span id="shia"
+								>نشر التشيع</span
+							>
+							<div class="menu" id="menu">
+							    <ul id="ulClass">
+							        <li><a href="novels.html">روايات شيعية</a></li>
+							        <li><a href="questions.html">الأسئلة الشائعة</a></li>
+							        <li><a href="papers.html">وثائق</a></li>
+							    </ul>
+							</div></li>
+						<li
+							><a href="./dark.html" target="_blank"
+								>الوضع المظلم</a
+							></li>
+						<li
+							><a href="./about.html" target="_blank"
+								>حول الموقع</a
+							></li
+						>
+					</ul>
+				</div>
+				
+				
+		      <i class="fa-solid fa-bars" id="side"></i>
+
+		      <div class="title">
+		          <img src="Images/logo.png" alt="logo.png" id="title">
+		      </div>
+		   </div>
+		</header>
+		<main>
+			<div class="container">
+				<div class="search-box">
+					<div class="overlay-input" id="overlay-input"></div>
+					<input
+						id="searchbar"
+						class="search"
+						onkeyup="search()"
+						type="text"
+						name="search"
+					/>
+				</div>
+				<div class="novels-list" data-user-cards-container> </div>
+				<template data-user-template>
+					<div class="novel">
+						<div class="directory" data-header></div>
+						<div class="content" data-body></div>
+					</div>
+				</template>
+			</div>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="social">
+					<ul>
+						<li
+							><a
+								href="https://discord.gg/7kjrV3uVxB"
+								target="_blank"
+								><i class="fa-brands fa-discord"></i></a
+						></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					<p
+						>&copy; جميع الحقوق محفوظة لدى
+						<a href="https://github.com/AliFGT-ai/" target="_blank"
+							>علي</a
+						>.</p
+					>
+				</div>
+			</div>
+		</footer>
+		<script src="./data/main.js" defer></script> 
+	</body>
+</html>
